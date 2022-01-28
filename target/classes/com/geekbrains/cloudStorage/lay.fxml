@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0"
+            prefWidth="625.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.geekbrains.cloudStorage.Client"
+>
+
+   <ListView fx:id="clientView" layoutX="26.0" layoutY="42.0" prefHeight="440.0" prefWidth="235.0"/>
+   <ListView fx:id="serverView" layoutX="369.0" layoutY="42.0" prefHeight="440.0" prefWidth="235.0"/>
+   <Button onAction="#upload" layoutX="279.0" layoutY="182.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="67.0" text="&gt;"/>
+   <Button onAction="#download" layoutX="279.0" layoutY="267.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="67.0" text="&lt;"/>
+</AnchorPane>
